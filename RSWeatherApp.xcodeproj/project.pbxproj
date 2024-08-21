@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21417E0F2C76A118007CC81E /* RSWeatherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21417E0E2C76A118007CC81E /* RSWeatherAppApp.swift */; };
+		21417E112C76A118007CC81E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21417E102C76A118007CC81E /* ContentView.swift */; };
+		21417E132C76A11B007CC81E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21417E122C76A11B007CC81E /* Assets.xcassets */; };
+		21417E162C76A11B007CC81E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21417E152C76A11B007CC81E /* Preview Assets.xcassets */; };
+		21417E182C76A11B007CC81E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21417E172C76A11B007CC81E /* Persistence.swift */; };
+		21417E1B2C76A11B007CC81E /* RSWeatherApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21417E192C76A11B007CC81E /* RSWeatherApp.xcdatamodeld */; };
+		21417E252C76A11B007CC81E /* RSWeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21417E242C76A11B007CC81E /* RSWeatherAppTests.swift */; };
+		21417E2F2C76A11B007CC81E /* RSWeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21417E2E2C76A11B007CC81E /* RSWeatherAppUITests.swift */; };
+		21417E312C76A11B007CC81E /* RSWeatherAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21417E302C76A11B007CC81E /* RSWeatherAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21417E212C76A11B007CC81E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21417E032C76A118007CC81E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21417E0A2C76A118007CC81E;
+			remoteInfo = RSWeatherApp;
+		};
+		21417E2B2C76A11B007CC81E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21417E032C76A118007CC81E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21417E0A2C76A118007CC81E;
+			remoteInfo = RSWeatherApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21417E0B2C76A118007CC81E /* RSWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21417E0E2C76A118007CC81E /* RSWeatherAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSWeatherAppApp.swift; sourceTree = "<group>"; };
+		21417E102C76A118007CC81E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		21417E122C76A11B007CC81E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21417E152C76A11B007CC81E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		21417E172C76A11B007CC81E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		21417E1A2C76A11B007CC81E /* RSWeatherApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RSWeatherApp.xcdatamodel; sourceTree = "<group>"; };
+		21417E202C76A11B007CC81E /* RSWeatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSWeatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21417E242C76A11B007CC81E /* RSWeatherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSWeatherAppTests.swift; sourceTree = "<group>"; };
+		21417E2A2C76A11B007CC81E /* RSWeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSWeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21417E2E2C76A11B007CC81E /* RSWeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSWeatherAppUITests.swift; sourceTree = "<group>"; };
+		21417E302C76A11B007CC81E /* RSWeatherAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSWeatherAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21417E082C76A118007CC81E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21417E1D2C76A11B007CC81E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21417E272C76A11B007CC81E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21417E022C76A118007CC81E = {
+			isa = PBXGroup;
+			children = (
+				21417E0D2C76A118007CC81E /* RSWeatherApp */,
+				21417E232C76A11B007CC81E /* RSWeatherAppTests */,
+				21417E2D2C76A11B007CC81E /* RSWeatherAppUITests */,
+				21417E0C2C76A118007CC81E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21417E0C2C76A118007CC81E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21417E0B2C76A118007CC81E /* RSWeatherApp.app */,
+				21417E202C76A11B007CC81E /* RSWeatherAppTests.xctest */,
+				21417E2A2C76A11B007CC81E /* RSWeatherAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21417E0D2C76A118007CC81E /* RSWeatherApp */ = {
+			isa = PBXGroup;
+			children = (
+				21417E0E2C76A118007CC81E /* RSWeatherAppApp.swift */,
+				21417E102C76A118007CC81E /* ContentView.swift */,
+				21417E122C76A11B007CC81E /* Assets.xcassets */,
+				21417E172C76A11B007CC81E /* Persistence.swift */,
+				21417E192C76A11B007CC81E /* RSWeatherApp.xcdatamodeld */,
+				21417E142C76A11B007CC81E /* Preview Content */,
+			);
+			path = RSWeatherApp;
+			sourceTree = "<group>";
+		};
+		21417E142C76A11B007CC81E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				21417E152C76A11B007CC81E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		21417E232C76A11B007CC81E /* RSWeatherAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				21417E242C76A11B007CC81E /* RSWeatherAppTests.swift */,
+			);
+			path = RSWeatherAppTests;
+			sourceTree = "<group>";
+		};
+		21417E2D2C76A11B007CC81E /* RSWeatherAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21417E2E2C76A11B007CC81E /* RSWeatherAppUITests.swift */,
+				21417E302C76A11B007CC81E /* RSWeatherAppUITestsLaunchTests.swift */,
+			);
+			path = RSWeatherAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21417E0A2C76A118007CC81E /* RSWeatherApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21417E342C76A11B007CC81E /* Build configuration list for PBXNativeTarget "RSWeatherApp" */;
+			buildPhases = (
+				21417E072C76A118007CC81E /* Sources */,
+				21417E082C76A118007CC81E /* Frameworks */,
+				21417E092C76A118007CC81E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSWeatherApp;
+			productName = RSWeatherApp;
+			productReference = 21417E0B2C76A118007CC81E /* RSWeatherApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21417E1F2C76A11B007CC81E /* RSWeatherAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21417E372C76A11B007CC81E /* Build configuration list for PBXNativeTarget "RSWeatherAppTests" */;
+			buildPhases = (
+				21417E1C2C76A11B007CC81E /* Sources */,
+				21417E1D2C76A11B007CC81E /* Frameworks */,
+				21417E1E2C76A11B007CC81E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21417E222C76A11B007CC81E /* PBXTargetDependency */,
+			);
+			name = RSWeatherAppTests;
+			productName = RSWeatherAppTests;
+			productReference = 21417E202C76A11B007CC81E /* RSWeatherAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21417E292C76A11B007CC81E /* RSWeatherAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21417E3A2C76A11B007CC81E /* Build configuration list for PBXNativeTarget "RSWeatherAppUITests" */;
+			buildPhases = (
+				21417E262C76A11B007CC81E /* Sources */,
+				21417E272C76A11B007CC81E /* Frameworks */,
+				21417E282C76A11B007CC81E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21417E2C2C76A11B007CC81E /* PBXTargetDependency */,
+			);
+			name = RSWeatherAppUITests;
+			productName = RSWeatherAppUITests;
+			productReference = 21417E2A2C76A11B007CC81E /* RSWeatherAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21417E032C76A118007CC81E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					21417E0A2C76A118007CC81E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					21417E1F2C76A11B007CC81E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 21417E0A2C76A118007CC81E;
+					};
+					21417E292C76A11B007CC81E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 21417E0A2C76A118007CC81E;
+					};
+				};
+			};
+			buildConfigurationList = 21417E062C76A118007CC81E /* Build configuration list for PBXProject "RSWeatherApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21417E022C76A118007CC81E;
+			productRefGroup = 21417E0C2C76A118007CC81E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21417E0A2C76A118007CC81E /* RSWeatherApp */,
+				21417E1F2C76A11B007CC81E /* RSWeatherAppTests */,
+				21417E292C76A11B007CC81E /* RSWeatherAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21417E092C76A118007CC81E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21417E162C76A11B007CC81E /* Preview Assets.xcassets in Resources */,
+				21417E132C76A11B007CC81E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21417E1E2C76A11B007CC81E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21417E282C76A11B007CC81E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21417E072C76A118007CC81E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21417E182C76A11B007CC81E /* Persistence.swift in Sources */,
+				21417E112C76A118007CC81E /* ContentView.swift in Sources */,
+				21417E0F2C76A118007CC81E /* RSWeatherAppApp.swift in Sources */,
+				21417E1B2C76A11B007CC81E /* RSWeatherApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21417E1C2C76A11B007CC81E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21417E252C76A11B007CC81E /* RSWeatherAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21417E262C76A11B007CC81E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21417E312C76A11B007CC81E /* RSWeatherAppUITestsLaunchTests.swift in Sources */,
+				21417E2F2C76A11B007CC81E /* RSWeatherAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21417E222C76A11B007CC81E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21417E0A2C76A118007CC81E /* RSWeatherApp */;
+			targetProxy = 21417E212C76A11B007CC81E /* PBXContainerItemProxy */;
+		};
+		21417E2C2C76A11B007CC81E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21417E0A2C76A118007CC81E /* RSWeatherApp */;
+			targetProxy = 21417E2B2C76A11B007CC81E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21417E322C76A11B007CC81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21417E332C76A11B007CC81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21417E352C76A11B007CC81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RSWeatherApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8R8R3GZ48W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ricardosilva.RSWeatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21417E362C76A11B007CC81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RSWeatherApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8R8R3GZ48W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ricardosilva.RSWeatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21417E382C76A11B007CC81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8R8R3GZ48W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ricardosilva.RSWeatherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSWeatherApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RSWeatherApp";
+			};
+			name = Debug;
+		};
+		21417E392C76A11B007CC81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8R8R3GZ48W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ricardosilva.RSWeatherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSWeatherApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RSWeatherApp";
+			};
+			name = Release;
+		};
+		21417E3B2C76A11B007CC81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8R8R3GZ48W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ricardosilva.RSWeatherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RSWeatherApp;
+			};
+			name = Debug;
+		};
+		21417E3C2C76A11B007CC81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8R8R3GZ48W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ricardosilva.RSWeatherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RSWeatherApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21417E062C76A118007CC81E /* Build configuration list for PBXProject "RSWeatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21417E322C76A11B007CC81E /* Debug */,
+				21417E332C76A11B007CC81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21417E342C76A11B007CC81E /* Build configuration list for PBXNativeTarget "RSWeatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21417E352C76A11B007CC81E /* Debug */,
+				21417E362C76A11B007CC81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21417E372C76A11B007CC81E /* Build configuration list for PBXNativeTarget "RSWeatherAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21417E382C76A11B007CC81E /* Debug */,
+				21417E392C76A11B007CC81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21417E3A2C76A11B007CC81E /* Build configuration list for PBXNativeTarget "RSWeatherAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21417E3B2C76A11B007CC81E /* Debug */,
+				21417E3C2C76A11B007CC81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		21417E192C76A11B007CC81E /* RSWeatherApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				21417E1A2C76A11B007CC81E /* RSWeatherApp.xcdatamodel */,
+			);
+			currentVersion = 21417E1A2C76A11B007CC81E /* RSWeatherApp.xcdatamodel */;
+			path = RSWeatherApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 21417E032C76A118007CC81E /* Project object */;
+}
