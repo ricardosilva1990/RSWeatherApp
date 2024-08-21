@@ -147,6 +147,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				21417E3F2C76A266007CC81E /* PBXTargetDependency */,
 			);
 			name = RSWeatherApp;
 			productName = RSWeatherApp;
@@ -221,6 +222,9 @@
 				Base,
 			);
 			mainGroup = 21417E022C76A118007CC81E;
+			packageReferences = (
+				21417E3D2C76A249007CC81E /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+			);
 			productRefGroup = 21417E0C2C76A118007CC81E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -299,6 +303,10 @@
 			isa = PBXTargetDependency;
 			target = 21417E0A2C76A118007CC81E /* RSWeatherApp */;
 			targetProxy = 21417E2B2C76A11B007CC81E /* PBXContainerItemProxy */;
+		};
+		21417E3F2C76A266007CC81E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 21417E3E2C76A266007CC81E /* SwiftLintBuildToolPlugin */;
 		};
 /* End PBXTargetDependency section */
 
@@ -596,6 +604,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		21417E3D2C76A249007CC81E /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.56.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		21417E3E2C76A266007CC81E /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21417E3D2C76A249007CC81E /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		21417E192C76A11B007CC81E /* RSWeatherApp.xcdatamodeld */ = {
